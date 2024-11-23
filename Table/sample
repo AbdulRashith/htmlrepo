@@ -1,18 +1,28 @@
-<table border="4">
-    <th>Name</th>
-    <th>Mark 1</th>
-    <th>Mark 2</th>
-    <tr>
-        <td rowspan='2'>Booshith</td>
-        <td>90</td>>
-        <td>91</td>
-    </tr>
-    <tr>
-    <td>92</td>
-    <td>90</td>
-    </tr>
-    <tr>
-        <td colspan='2'>Pooja</td>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sample Mark Table</title>
+    </head>
+</html>
+<body>
+    <h1>Marks</h1>
+    <table border="4">
+        <th>Name</th>
+        <th>Mark 1</th>
+        <th>Mark 2</th>
+        <tr>
+            <td rowspan='2'>Booshith</td>
+            <td>90</td>>
+            <td>91</td>
+        </tr>
+        <tr>
         <td>92</td>
-    </tr>
-</table>
+        <td>90</td>
+        </tr>
+        <tr>
+            <td colspan='2'>Pooja</td>
+            <td>92</td>
+        </tr>
+    </table>
+</body>
+</html>
